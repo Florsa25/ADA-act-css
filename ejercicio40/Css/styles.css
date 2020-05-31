@@ -1,0 +1,33 @@
+/*En la etiqueta style:
+Seleccionar los elementos tabla
+Borde: 1px solid black
+Ancho: 600px
+Color de fondo: #ccc
+border-spacing: 20px
+Seleccionar las filas
+Borde: 1px solid red
+Seleccionar las celdas
+Borde: 1px solid black
+Color de fondo: white
+Alinear el texto al centro
+Padding: 10px*/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 600px;
+  border: 1px solid black;
+  background: #cccccc;
+  border-spacing: 20px;
+}
+
+tr td {
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
