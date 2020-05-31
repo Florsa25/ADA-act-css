@@ -1,0 +1,20 @@
+/*Modificar los elementos para que se vean de la siguiente manera:
+h1 con texto azul utilizando el color con nombre
+Los 2 párrafos con texto rojo utilizando utilizando el color en rgb
+Los 2 Divs en color verde utilizando el color en hexadecimal
+El hipervinculo tiene que ser de color amarillo utilizando el color con nombre*/
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+}
+p{
+    color: rgba(210, 12, 167, 0.993);
+    
+}
+div{
+    color: #39ff14;
+}
