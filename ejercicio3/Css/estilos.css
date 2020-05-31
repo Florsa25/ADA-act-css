@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*Definir los siguientes estilos para cada tipo de elemento
+
+h1 con texto negro utilizando el color con nombre
+
+h2 con texto gris utilizando el color con nombre
+
+Los 2 párrafos con el texto color verde utilizando el color en hexadecimal
+
+Los 2 Divs con el texto en rojo utilizando utilizando el color en rgb
+
+Lista ordenada pintada de rosa
+
+Luego de realizar todos estos pasos ver el documento en el browser
+
+Modificar el archivo styles.css intercambiando el color de los títulos (h1 y h2)
+
+Volver a mirar los documentos en el browser (index y about)*/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: grey;
+}
+
+p {
+  color: #bdecb6;
+}
+
+div {
+  color: #d71987;
+}
+
+ol li {
+  color: pink;
+}
+
+/*# sourceMappingURL=estilos.css.map */
