@@ -1,0 +1,55 @@
+/*Alinear el texto del título h1 a la derecha
+Alinear el contenido de la lista al centro (va a alinear los hipervinculos por ser elementos en linea)
+Remover el subrayado que tienen los hipervínculos
+Hacer que el título h1 sea subrayado.
+Crear 3 párrafos autogenerados
+En la etiqueta style:
+Agregar identación de 40px a los párrafos
+Establecer la familia tipográfica en Arial
+Establecer el tamaño de tipografía para todo el documento en 12px;
+Crear la clase espacios-letras y que tenga un espaciado entre letras de 1px
+Crear la clase espacios-palabras y que tenga un espaciado entre palabras de 5px
+Seleccionar 1 párrafos y agregar la clase espacios-letras
+Seleccionar 1 párrafos y agregar la clase espacios-palabras
+El título h1 tiene que ser gris usar cualquier sistema
+Establecer el alto de línea de todos los párrafos en 16px;*/
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+h1{
+    text-align: left;
+    font-family: italic;
+    padding: 50px;
+    text-decoration: underline;
+}
+
+ul li{
+    text-align: right;
+    padding: 20px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: left;
+    width: 540px;
+    box-shadow: 17px 10px 5px 0px rgba(185,0,250,0.35);
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.espacio-letras{
+    letter-spacing: 1px;
+}
+
+.espacio-palabras{
+    word-spacing: 5px;
+}
