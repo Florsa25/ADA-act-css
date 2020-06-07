@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*En la etiqueta style:
+Seleccionar el elemento body y establecer la siguiente propiedad:
+Família tipográfica: Arial, Helvetica, sans-serif
+Seleccionar todos los hipervínculos que estan dentro del elemento nav
+Color de fondo: #C2FAFE
+Border: 2px solid #0B9EA8
+Padding: 10px
+Decorado de texto: none
+Color de texto: #0B9EA8
+Seleccionar las siguientes pseudo clases:
+hover:
+Decorado de texto:underline
+Color de fondo: #0B9EA8
+Color de texto: blanco
+active:
+Color de fondo: #046A71
+Seleccionar todos los elementos list items y establecer las siguientes propiedades:
+Padding: 20px
+Color de fondo: #eee
+Borde: 1px solid black
+Seleccionar las siguientes pseudo clases:
+hover:
+Color de fondo: #ccc
+Tamaño de tipografía: 120%
+last-child:
+Borde: none
+first-child:
+Cuerpo de tipografía: negrita
+active:
+Decorado de texto: tachado
+Seleccionar el elemento nav y establecer la siguiente propiedad:
+Margen inferior: 50px*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: auto;
+}
+
+nav ul li {
+  width: 1200;
+  height: auto;
+  margin: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  background: #C2FAFE;
+  border: 2px solid #0B9EA8;
+  padding: 10px;
+  color: #0B9EA8;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: #0B9EA8;
+  color: white;
+}
+
+nav a:active {
+  background: #046A71;
+}
+
+ol li {
+  padding: 20px;
+  background: #eee;
+  border: 1px solid black;
+}
+
+ol li:hover {
+  background: #cccccc;
+  font-size: 120%;
+}
+
+ol li:last-child {
+  border: none;
+}
+
+ol li:first-child {
+  font-weight: bold;
+}
+
+li:active {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */
