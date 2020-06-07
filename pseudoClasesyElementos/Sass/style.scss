@@ -1,0 +1,40 @@
+/*En la etiqueta style:
+Seleccionar todos los párrafos por nombre de etiqueta:
+Pseudolemento de selección:
+Color de fondo: rosa
+Color de tipografía: blanco
+Cuerpo de la tipografía: negrita
+Pseudolemento de primer letra:
+Tamaño de tipografía: 30px
+Cuerpo de la tipografía: negrita
+Color de tipografía: rojo
+Padding: 20px
+Pseudolemento de primer linea:
+Estilo de texto: itálico
+Pseudolemento de fin de elemento (after):
+Contenido (propiedad content): 'FIN DE LA FIESTA'
+Cuerpo de la tipografía: negrita
+Color de tipografía: rojo*/
+
+p::selection{
+    background: pink;
+    color: white;
+    font-family: fantasy;
+
+}
+p::first-letter{
+    font-size: 30px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: violet;
+    padding: 20px;
+}
+
+p::first-line{
+    font-family:'Courier New', Courier, monospace;
+}
+
+p::after{
+    content: "Fin de la fiesta";
+    font-family: Geneva, Verdana, sans-serif;
+    color: red;
+}
