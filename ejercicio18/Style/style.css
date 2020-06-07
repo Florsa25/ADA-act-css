@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*En la etiqueta style:
+Establecer los siguientes atributos visuales al body del documento:
+Familia tipográfica: Arial, Helvetica, sans-serif
+Tamaño de tipografía: 12px
+Agregar la propiedad de alineado vertical a la imagen y probar las distintas opciones (de a una):
+Primero establecer en top y ver que pasa en el browser
+Luego establecer en middle y ver que pasa en el browser
+Luego establecer en bottom y ver que pasa en el browser
+Volve a establecer en middle para que quede bien alineado
+Establecer las siguientes propiedades al párrafo:
+Tamaño de tipografía en 16px
+El cuerpo de la tipografía tiene que ser en negrita*/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 1000px;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*Establecer el color de fondo del body en #ddd;*/
+section {
+  background-color: #ddd;
+}
+
+/*# sourceMappingURL=style.css.map */

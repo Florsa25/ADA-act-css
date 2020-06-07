@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*En la etiqueta style:
+Establecer el ancho y alto del div en 200px
+Establecer el color de fondo del div en azul
+Establecer la propiedad overflow en hidden
+Establecer el ancho y alto del párrafo en 200px
+Establecer el color de fondo del párrafo en rojo
+Establecer la propiedad overflow en scroll
+Ver la diferencia entre ambos overflows*/
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.a .b {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.p {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+}
+
+/*ACTIVIDAD 22
+En la etiqueta style:
+Establecer el siguiente borde al elemento linea:
+Ancho: 2px
+Diseño: solid
+Color: rojo
+Utilizar sólo una propiedad border
+Establecer el siguiente borde al elemento div:
+Ancho: 3px
+Diseño: dashed
+Color: #ccc
+Utilizar las propiedades de border width, style y color
+Establecer el siguiente borde inferior al elemento section:
+Ancho: 1px
+Diseño: groove
+Color: blue
+Establecer los siguientes bordes al título h2:
+Borde superior:
+Ancho: 1px
+Diseño: solid
+Color: orange
+Borde inferior:
+Ancho: 2px
+Diseño: groove
+Color: red
+Borde izquierdo:
+Ancho: 3px
+Diseño: dashed
+Color: green
+Borde derecho:
+Ancho: 4px
+Diseño: dotted
+Color: blue
+Utilizar las propiedades width, style y color individual para cada borde (ejemplo: border-top-width, etc)
+*/
+.h1 {
+  border: 2px solid red;
+}
+
+.div {
+  border: 3px dashed #cccccc;
+  width: 500px;
+  color: sandybrown;
+}
+
+.d {
+  border-bottom: 1px groove blue;
+  width: 600px;
+}
+
+.h2 {
+  border-top: 1px solid orange;
+  border-bottom: 2px groove red;
+  border-left: 3px dashed green;
+  border-right: 4px dotted blue;
+  width: 1000px;
+}
+
+/*# sourceMappingURL=style.css.map */
